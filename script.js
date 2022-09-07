@@ -75,14 +75,14 @@ rightArrowButton.addEventListener('click', moveCarouselForward);
 //Creo BONUS
 const buttonInverted =document.getElementById('buttonInverted');
 buttonInverted.addEventListener('click',moveCarouselInverted);
-function moveCarouselInverted(){
+function moveCarouselInverted(){ 
     clearInterval(idInterval)
     let idInterval2 = setInterval(moveCarouselPrevious, CHANGE_IMAGE_DELAY * 1000);
     }
 
 leftArrowButton.addEventListener('click', moveCarouselPrevious);
 rightArrowButton.addEventListener('click', moveCarouselForward);
-    
+// end Bonus
 
 
 function moveCarouselForward(){
