@@ -79,6 +79,12 @@
   #buttonInverted{
     font-size: 1rem;
     border: 1px solid black;
+    padding: 10px;
+}
+
+#buttonInverted:hover {
+  cursor: pointer;
+  border: 1px red solid;
 }
 
   
