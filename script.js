@@ -8,6 +8,18 @@ pulsanti avanti indietro
 aggiungere le thumb (la thumb attiva sarà distinguibile dalle altre)
 dopo 5 secondi la slide avanza automaticamente
 */
+/*
+Consegna:
+Riprendiamo l'esercizio carosello e rifacciamolo, 
+questa volta usando gli oggetti, prendendo come 
+riferimento il codice scritto oggi insieme a lezione, 
+che trovate in allegato.
+Modifichiamo il codice dell'esercizio per renderlo funzionante 
+con un array di oggetti,con una sola regola: 
+non è possibile modificare l'HTML ma solamente JS e CSS. 
+ Ricordiamo sempre l'importanza dell'integrità del dato.
+*/
+
 
 // settings
 const NUM_IMAGES = 5;
